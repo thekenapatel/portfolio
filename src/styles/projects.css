@@ -1,0 +1,11 @@
+.projects-container {
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    padding: 2.5rem 5rem;
+}
+
+.projects-container p {
+    color: black;
+    font-weight: 700;
+    font-size: 60px;
+}

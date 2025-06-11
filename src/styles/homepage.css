@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    color: white;
+    scroll-behavior: smooth;
+}
+
+hr {
+    margin: 30px 0 20px 0;
+    border-color: #181818;
+}
+
+.homepage {
+    padding: 2.5rem 5rem 2.5rem 5rem;
+    background: #000;
+}
+
+.main-container {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: "Outfit", sans-serif;
+}
+
+.titles {
+    margin-bottom: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.title-left {
+    display: flex;
+    gap: 1rem;
+    align-items: first baseline;
+}
+
+/* title-number */
+.title-left p {
+    color: #797979;
+}
+
+/* arrow-icon */
+.title-right a {
+    border: 1px solid grey;
+    border-radius: 70px;
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.title-right:hover {
+    background: #181818;
+    border-radius: 70px;
+}
+
+/* name-logo */
+.lioness {
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.title-left a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 60px;
+    transition: 0.3s ease;
+}
+
+.title-left a:hover {
+    color: #797979;
+}
+
+.other-sections {
+    background: black;
+}

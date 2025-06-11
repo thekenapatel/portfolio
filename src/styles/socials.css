@@ -1,0 +1,144 @@
+.socials-container {
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    padding: 5rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* LEFT PART SOCIALS */
+.left-part {
+    width: 200px;
+    height: 500px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.left-part p {
+    color: #b0b0b0;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 3rem;
+    font-family: "Outfit", sans-serif;
+}
+
+.profiles a {
+    text-decoration: none;
+    color: #b0b0b0;
+    /* font-family: "Vollkorn", serif; */
+}
+
+.profiles a:hover {
+    color: white;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-text {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    width: 130px;
+    margin-left: 15px;
+}
+
+.social-box {
+    background: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.social-icon {
+    width: 37px;
+    cursor: pointer;
+}
+
+
+
+
+/* RIGHT PART SOCIALS */
+.right-part {
+    width: 600px;
+    height: 500px;
+    padding-top: 50px;
+    margin-right: 100px;
+}
+
+.right-part-info {
+    width: 600px;
+    height: 330px;
+    border: 2px solid #3f3f3f;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    justify-content: space-between;
+}
+
+.right-part-info p {
+    font-size: 20px;
+    /* font-family: "Vollkorn", serif; */
+}
+
+.profileimage {
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+}
+
+.right-part-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-part-detail p {
+    margin-bottom: 10px;
+}
+
+.location {
+    margin-top: 40px;
+}
+
+
+/* Resume Download  */
+.resume a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    height: 45px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.resume a:hover {
+    text-decoration: underline;
+}
+
+.resume p {
+    margin-left: 10px;
+}
