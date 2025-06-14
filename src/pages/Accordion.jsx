@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import '../styles/projects.css';
-import ReactIcon from '../assets/skills/frontend/react.png';
-import TypescriptIcon from '../assets/skills/languages/typescript.png';
-import FirebaseIcon from '../assets/skills/databases/firebase.png';
-import BootstrapIcon from '../assets/skills/frontend/bootstrap.png';
-import NextjsIcon from '../assets/skills/backend/nextjs.png';
-import TailwindcssIcon from '../assets/skills/frontend/tailwindcss.png';
-import JavascriptIcon from '../assets/skills/languages/js.png';
+import ReactIcon from '/assets/skills/frontend/react.png';
+import TypescriptIcon from '/assets/skills/languages/typescript.png';
+import FirebaseIcon from '/assets/skills/databases/firebase.png';
+import BootstrapIcon from '/assets/skills/frontend/bootstrap.png';
+import NextjsIcon from '/assets/skills/backend/nextjs.png';
+import TailwindcssIcon from '/assets/skills/frontend/tailwindcss.png';
+import JavascriptIcon from '/assets/skills/languages/js.png';
 
 const Accordion = ({ project }) => {
     const [open, setOpen] = useState(false);

@@ -1,10 +1,10 @@
 import '../styles/socials.css'
-import FigmaIcon from '../assets/socials/figma.png';
-import LinkedinIcon from '../assets/socials/linkedin.png';
-import GithubIcon from '../assets/socials/github.png';
-import TwitterIcon from '../assets/socials/twitter.png';
-import InstagramIcon from '../assets/socials/instagram.png';
-import ProfileImage from '../assets/profile/meera.jpg';
+import FigmaIcon from '/assets/socials/figma.png';
+import LinkedinIcon from '/assets/socials/linkedin.png';
+import GithubIcon from '/assets/socials/github.png';
+import TwitterIcon from '/assets/socials/twitter.png';
+import InstagramIcon from '/assets/socials/instagram.png';
+import ProfileImage from '/assets/profile/meera.jpg';
 import FileDownloadIcon from '@mui/icons-material/FileDownloadRounded';
 
 const Socials = () => (

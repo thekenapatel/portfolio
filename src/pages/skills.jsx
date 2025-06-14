@@ -1,28 +1,28 @@
 import '../styles/skills.css'
 
-import TypescriptIcon from '../assets/skills/languages/typescript.png'
-import JavascriptIcon from '../assets/skills/languages/js.png'
-import PythonIcon from '../assets/skills/languages/python.png'
+import TypescriptIcon from '/assets/skills/languages/typescript.png'
+import JavascriptIcon from '/assets/skills/languages/js.png'
+import PythonIcon from '/assets/skills/languages/python.png'
 
-import Expressjs from '../assets/skills/backend/expressjs.png'
-import Nodejs from '../assets/skills/backend/nodejs.png'
-import Nextjs from '../assets/skills/backend/nextjs.png'
+import Expressjs from '/assets/skills/backend/expressjs.png'
+import Nodejs from '/assets/skills/backend/nodejs.png'
+import Nextjs from '/assets/skills/backend/nextjs.png'
 
-import Firebase from '../assets/skills/databases/firebase.png'
-import Mongodb from '../assets/skills/databases/mongodb.png'
-import Postgres from '../assets/skills/databases/postgre.png'
+import Firebase from '/assets/skills/databases/firebase.png'
+import Mongodb from '/assets/skills/databases/mongodb.png'
+import Postgres from '/assets/skills/databases/postgre.png'
 
-import Bootstrap from '../assets/skills/frontend/bootstrap.png'
-import Css from '../assets/skills/frontend/css.png'
-import Html from '../assets/skills/frontend/html.png'
-import Materialui from '../assets/skills/frontend/mui.png'
-import ReactIcon from '../assets/skills/frontend/react.png'
-import Tailwindcss from '../assets/skills/frontend/tailwindcss.png'
+import Bootstrap from '/assets/skills/frontend/bootstrap.png'
+import Css from '/assets/skills/frontend/css.png'
+import Html from '/assets/skills/frontend/html.png'
+import Materialui from '/assets/skills/frontend/mui.png'
+import ReactIcon from '/assets/skills/frontend/react.png'
+import Tailwindcss from '/assets/skills/frontend/tailwindcss.png'
 
-import Figma from '../assets/skills/other tools/figma.png'
-import Git from '../assets/skills/other tools/git.png'
-import Github from '../assets/skills/other tools/github.png'
-import Postman from '../assets/skills/other tools/postman.png'
+import Figma from '/assets/skills/other tools/figma.png'
+import Git from '/assets/skills/other tools/git.png'
+import Github from '/assets/skills/other tools/github.png'
+import Postman from '/assets/skills/other tools/postman.png'
 
 const skills = [
     { src: TypescriptIcon, alt: 'TypeScript', label: 'TypeScript' },

@@ -1,6 +1,10 @@
 import { Stack } from '@mui/material';
 import '../styles/projects.css';
 import Accordion from './Accordion';
+import daybitHomepage from '/assets/projects/daybit/homepage.png';
+import wordleImg from '/assets/projects/wordle/wordle.png';
+import keepmeHomepage from '/assets/projects/keepme/homepage.png';
+import geminiImg from '/assets/projects/gemini clone/gemini.png';
 
 // Example project data
 const projects = [
@@ -8,7 +12,7 @@ const projects = [
         name: 'DayBit',
         techStack: ['React', 'Typescript', 'Firebase'],
         description: 'DayBit is a personal finance tracker that uses a calendar-style heatmap to visually display daily transaction activity. It helps users analyze their spending habits through simple, color-coded insights.',
-        image: '/src/assets/projects/daybit/homepage.png',
+        image: daybitHomepage,
         github: 'https://github.com/thekenapatel/daybit',
         behindTheBuild: [
             'Implemented a calendar heatmap to visually map spending patterns.',
@@ -26,7 +30,7 @@ const projects = [
         name: 'Wordle',
         techStack: ['React', 'Node.js', 'MongoDB'],
         description: 'Developed a functional Wordle game with complete word-guessing logic, responsive design, and smooth navigation.',
-        image: '/src/assets/projects/wordle/wordle.png',
+        image: wordleImg,
         github: 'https://thekenapatel.github.io/wordle',
         behindTheBuild: [
             'Focused on replicating Wordle’s logic with a clear and structured approach.',
@@ -41,7 +45,7 @@ const projects = [
         name: 'KeepMe',
         techStack: ['React', 'Node.js', 'MongoDB'],
         description: 'Built a note-taking app replicating Google Keep’s core features, including creating, editing, and storing notes in real time. Integrated secure user login and designed a responsive Masonry layout with modal-based note editing.',
-        image: '/src/assets/projects/keepme/homepage.png',
+        image: keepmeHomepage,
         github: 'https://thekenapatel.github.io/keepme',
         behindTheBuild: [
             'Responsive Masonry Layout for optimal note organization.',
@@ -57,7 +61,7 @@ const projects = [
         name: 'Gemini',
         techStack: ['React', 'Node.js', 'MongoDB'],
         description: 'Developed a dynamic, responsive AI chat interface with secure user login via Firebase Authentication. Implemented a sleek dark theme for an enhanced user experience.',
-        image: '/src/assets/projects/gemini clone/gemini.png',
+        image: geminiImg,
         github: 'https://thekenapatel.github.io/gemini-clone',
         behindTheBuild: [
             'Integrated Gemini API via official SDK.',
