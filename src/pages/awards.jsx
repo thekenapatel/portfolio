@@ -8,37 +8,34 @@ const Awards = () => (
         <div className='awards'>
             <div className='award'>
                 <p className='heading'>HACKATHON WINNER</p>
-                <p>Adani University (AU) IQM Hackathon (24 hours) – First Prize</p>
+                <p>AU(Adani University) - IQM 24-hour Hackathon 2023 | Season 2</p>
             </div>
 
             <div className='award'>
-                <p className='heading'>GARBA WINNER</p>
-                <p>Awarded Best Performer at age 7 – Featured on the front page of a local newspaper</p>
+                <p className='heading'>AU WINS | ASPIRE 2023</p>
+                <p>Box Cricket - Winners | 200m Race - Gold | Volleyball - Runner Up</p>
             </div>
 
             <div className='award'>
-                <p className='heading'>BEST FEMALE PERFORMER</p>
-                <p>Rangat 2023 & 2024 at Adani University</p>
+                <p className='heading'>DANCE ACCOLADES</p>
+                <p>Won Best Female Performer in Garba at Adani University Rangat for two consecutive years | 2023 & 2024</p>
             </div>
 
             <div className='award'>
-                <p className='heading'>SPORTS</p>
-                <p>Won 15+ Gold Medals in High Jump, Long Jump, Relay, and Hurdles</p>
-                <p>Silver Medalist in 200m Race at Khel Mahakumbh 2015</p>
+                <p className='heading'>ATHLETICS</p>
+                <p>15+ Gold Medals | School Sports Star</p>
+                <p>Silver Medalist | Khel Mahakumbh 2015 - 100m Race</p>
             </div>
 
             <div className='award'>
-                <p className='heading'>ASPIRE</p>
-                <p>Gold Medalist in 200m Sprint</p>
-                <p>Winner in Box Cricket</p>
-                <p>Runner-Up in Volleyball</p>
+                <p className='heading'>EARLY TRIUMPH</p>
+                <p>At age 7, I was crowned Best Garba Performer and featured on a local newspaper's front page.</p>
             </div>
 
             <div className='award'>
-                <p className='heading'>HANDWRITING CHAMPION</p>
-                <p>Winner in every batch for over 5 years – Recognized consistently for best handwriting</p>
+                <p className='heading'>UCMAS ABACUS</p>
+                <p>Medalist: Competition Winner | 2012</p>
             </div>
-
         </div>
     </div>
 );

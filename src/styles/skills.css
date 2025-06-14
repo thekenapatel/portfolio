@@ -1,24 +1,79 @@
 .skills-container {
-    height: 130vh;
     background: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 20px 100px;
+    padding: 70px 10px 150px 10px;
 }
 
 .skills-container p {
     color: black;
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 7rem;
     margin-bottom: 30px;
 }
 
 .icon {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     border-radius: 35px;
     margin: 30px;
     cursor: pointer;
+}
+
+.icon-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-tooltip-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.skill-tooltip {
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    transform: translateX(-30%) scale(0.95);
+    background: #000;
+    color: #fff;
+    padding: 6px 19px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1), transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 10;
+}
+
+.skill-tooltip-wrapper:hover .skill-tooltip {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 900px) {
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills-container {
+        padding: 100px 20px;
+    }
 }

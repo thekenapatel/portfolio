@@ -24,3 +24,22 @@ footer div {
     border-radius: 50%;
     background: #606060;
 }
+
+.footer-name:hover {
+    color: rgb(230, 230, 230);
+}
+
+@media only screen and (max-width: 900px) {
+    footer {
+        flex-direction: column;
+        gap: 5px;
+        height: fit-content;
+    }
+
+    .dot-dash {
+        width: 50px;
+        height: 2px;
+        border-radius: 2px;
+    }
+
+}
