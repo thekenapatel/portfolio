@@ -64,7 +64,7 @@ const Socials = () => (
                 </div>
             </div>
             <div className='resume'>
-                <a href='./resume/Kena Patel Resume.pdf' download>
+                <a href='/resume/Kena Patel Resume.pdf' download>
                     <FileDownloadIcon />
                     <p>Download Resume</p>
                 </a>
