@@ -23,7 +23,7 @@ const Footer = () => {
         <footer className="footer">
             <p>{formattedTime}</p>
             <div></div>
-            <p className='footer-name' style={{ cursor: 'pointer' }} onClick={() => window.location.href = '/'}>thekenapatel</p>
+            <a className='footer-name' href="/portfolio/">thekenapatel</a>
             <div></div>
             <p>{formattedDate}</p>
         </footer>

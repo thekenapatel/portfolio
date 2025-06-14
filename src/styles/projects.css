@@ -227,6 +227,11 @@
         padding: 40px 10px;
     }
 
+    .accordion-body {
+        padding: 20px;
+    }
+
+
     .projects-container .topic-name {
         font-size: 3rem;
     }
@@ -236,7 +241,86 @@
         height: 40px;
     }
 
+    .projects-container p,
+    .project-insights-toggle,
+    .project-insights li,
+    .project-btn {
+        font-size: 0.8rem;
+    }
+
+    .accordion-header {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .projects-container .topic-name {
+        font-size: 2.2rem;
+    }
+
     .projects-container p {
-        font-size: 20px;
+        font-size: 0.7rem;
+    }
+
+    .accordion-header {
+        font-size: 0.9rem;
+    }
+
+    .project-insights li {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1023px) {
+    .projects-container .topic-name {
+        font-size: 4rem;
+    }
+
+    .projects-container p {
+        font-size: 1.1rem;
+    }
+
+    .accordion-header {
+        font-size: 1.2rem;
+    }
+
+    .project-insights li {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .projects-container .topic-name {
+        font-size: 6rem;
+    }
+
+    .projects-container p {
+        font-size: 1.4rem;
+    }
+
+    .accordion-header {
+        font-size: 1.5rem;
+    }
+
+    .project-insights li {
+        font-size: 0.95rem;
+    }
+}
+
+@media (min-width: 1441px) {
+    .projects-container .topic-name {
+        font-size: 7rem;
+    }
+
+    .projects-container p {
+        font-size: 1.6rem;
+    }
+
+    .accordion-header {
+        font-size: 1.7rem;
+    }
+
+    .project-insights li {
+        font-size: 0.98rem;
     }
 }

@@ -25,8 +25,14 @@ footer div {
     background: #606060;
 }
 
+.footer-name {
+    cursor: pointer;
+    text-decoration: none;
+    color: #606060;
+}
+
 .footer-name:hover {
-    color: rgb(230, 230, 230);
+    color: rgb(196, 196, 196);
 }
 
 @media only screen and (max-width: 900px) {
