@@ -72,7 +72,7 @@ const projects = [
 
 const Projects = () => (
     <div className='projects-container'>
-        <p className='topic-name'>Projects</p>
+        <p className='topic-name'>Works</p>
         {projects.map((project, idx) => (
             <Accordion key={idx} project={project} />
         ))}
